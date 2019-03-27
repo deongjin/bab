@@ -204,7 +204,7 @@ for i in range(1, 4):               #조식, 중식, 석식 차례대로 파싱&
     if i == 1:
         for n in temp:
             menu1[count][1] = temp[count][0]
-            menu1[count][2] = temp[count][1]
+            menu1[count][2] = temp[count][1]+
             count = count + 1
     elif i == 2:
         for n in temp:
