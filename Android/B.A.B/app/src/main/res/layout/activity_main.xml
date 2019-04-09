@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    android:weightSum="10"
+    tools:context="com.example.administrator.bab.Mainactivity">
+
+    <LinearLayout
+        android:id = "@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#3140a0">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bablogo_white"
+            android:id="@+id/bab"
+            android:layout_weight="0.50"
+            android:background="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.88"
+        android:textColor="#175684"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="10월 25일 석식"
+            android:textColor="#175684"
+            android:textSize="24dp"
+            android:id="@+id/day"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/calendar"
+            android:id="@+id/calendar"
+            android:layout_weight="1.5"
+            android:clickable="true"
+            android:background = "#f5f5f5"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:color="#f5f5f5"
+        android:orientation="horizontal"
+        android:layout_weight="5.10">
+
+        <LinearLayout
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/left"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/meal"
+            android:text="\n\n\n\n\n\n로딩중"
+            android:textColor="#000000"
+            android:layout_weight="10"
+            android:background="@drawable/line1" />
+
+
+        <LinearLayout
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/right"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.43"
+        android:background="@drawable/line3">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.21"
+        android:background="#f5f5f5">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.56"
+        android:color="#f5f5f5"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:id="@+id/view3"></View>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="10">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="#Just #do #it"
+                android:textColor="#175684" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="#인천전자마이스터고등학교 #급식\n#4300원이라고는 믿을 수 없는 퀄리티\n#MDP프로젝트 #인마고 #급식알리미 #B.A.B.\n"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"></View>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.90"
+        android:background="@drawable/line2"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/view" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/kaka"
+            android:background="@drawable/line2"
+            android:src="@drawable/kakaotalk"
+            android:clickable="true"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/earth"
+            android:background="@drawable/line2"
+            android:id="@+id/web"
+            android:clickable="true"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/developer"
+            android:clickable="true"
+            android:background="@drawable/line2"
+            android:src = "@drawable/information"
+
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/finish"
+            android:clickable="true"
+            android:background="@drawable/line2"
+            android:src="@drawable/exit"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
