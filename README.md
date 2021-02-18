@@ -1,1 +1,1 @@
-
+Android / AWS / Python / Django
